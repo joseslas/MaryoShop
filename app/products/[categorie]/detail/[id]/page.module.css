@@ -1,0 +1,98 @@
+.detailContainer {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.detailContainer h2 {
+    margin: 5px;
+}
+
+.subContainer {
+    display:flex;
+    width: 80%;
+    justify-content: center;
+}
+
+.subContainer p {
+    margin: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.imageContainer {
+    padding: 30px;
+    width: 400px;
+    height: 400px;
+}
+
+.imageContainer img {
+    width: 100%;
+    height: 100%;
+}
+
+.information {
+    padding: 30px;
+    width: 500px;
+}
+
+.information div {
+    margin-bottom: 15px;
+}
+
+.colorsContainer button {
+    height: 30px;
+    width: 30px;
+    border-color: transparent;
+    margin: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.colorsContainer button:hover {
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.tallasContainer button {
+    background-color: transparent;
+    margin: 5px;
+    width: 35px;
+    height: 35px;
+    border: solid 1px black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.tallasContainer button:hover {
+    background-color: black;
+    color: white;
+}
+
+.cartButton button {
+    background-color: transparent;
+    border: solid 1px black;
+    cursor: pointer;
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 17px;
+    align-items: center;
+}
+
+.cartButton button:hover {
+    background-color: black;
+    color: white;
+} 
+
+.cartButton svg {
+    width: 20px;
+    height: 15px;
+}
+
+.colors {
+    width: 170px;
+    height: 50px;
+}

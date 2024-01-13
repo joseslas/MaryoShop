@@ -1,0 +1,11 @@
+.welcome {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    background-color: blanchedalmond;
+    font-size: 18px;
+}
+
+.welcome p {
+    width: 100%;
+}

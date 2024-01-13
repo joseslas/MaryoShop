@@ -1,0 +1,7 @@
+.cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 75px;
+}
+

@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+.types {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.types button {
+    margin-left: 15px;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 17px;
+    font-weight: 300;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.logo img {
+    width: auto;
+    height: 100px;
+}
+
+.icons svg {
+    margin-left: 15px;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+}

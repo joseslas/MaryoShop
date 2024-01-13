@@ -1,0 +1,46 @@
+.categoriesContainer {
+    display: flex;
+    width: 100%;
+  }
+  
+  .category {
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+    position: relative;
+    text-align: center;
+    width: 33.33%;
+    height: 70vh;
+  }
+  
+  .centeredText {
+    font-size: 50px;
+    color: #F4F4F4;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .category img {
+    width: 100%;
+    box-shadow: 5px;
+    height: 100%;
+  }
+  
+  .category h2:hover {
+    border: solid 3px #F4F4F4;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  .logo img {
+    width: 100%;
+  }
+  

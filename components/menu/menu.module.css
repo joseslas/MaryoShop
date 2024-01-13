@@ -1,0 +1,43 @@
+.menu {
+    width: 30vh;
+    height: 100%;
+    margin: 25px;
+}
+
+.submenu {
+    position: sticky;
+    top: 50px;
+}
+
+.menu ol {
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu input {
+    margin-right: 15px;
+    position: relative;
+}
+
+.menu label {
+    color: #787878;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.menu p {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    margin: 0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+    color: #424242;
+    border-color: #787878;
+    width: 170px;
+}

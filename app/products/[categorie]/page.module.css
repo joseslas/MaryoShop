@@ -1,0 +1,42 @@
+.container {
+    margin-top: 30px;
+}
+
+.sort {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.sort label {
+    color: #787878;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.sort label {
+    margin-right: 5px;
+}
+
+.sort select {
+    border-color: transparent;
+}
+
+.container h2 {
+    margin-bottom: 5px;
+}
+
+.hombreContainer {
+    display: flex;
+    gap: 30px;
+}
+
+.textContainer {
+    text-align: center;
+}
+
+.textContainer p {
+    margin: 0;
+    margin-bottom: 20px;
+}
